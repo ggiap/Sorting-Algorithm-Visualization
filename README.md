@@ -70,12 +70,12 @@ cd build
 ***Using MinGW:***
 ##### Debug build
 ```
-cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug .. && make
+cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Debug .. && mingw32-make -j4
 ```
 
 ##### Release build
 ```
-cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release .. && make
+cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release .. && mingw32-make -j4
 ```
 
 ##### Run
@@ -87,12 +87,12 @@ cd bin && ./Sorting_Algorithm_Visualization
 ***Using MSVC:***
 ##### Debug build
 ```
-cmake -DCMAKE_BUILD_TYPE=Debug .. && make
+cmake -DCMAKE_BUILD_TYPE=Debug ..
 ```
 
 ##### Release build
 ```
-cmake -DCMAKE_BUILD_TYPE=Release .. && make
+cmake -DCMAKE_BUILD_TYPE=Release ..
 ```
 
 ##### Run
