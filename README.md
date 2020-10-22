@@ -30,7 +30,7 @@ Currently supported algorithms:
 * [conan](https://conan.io/) - Open source package manager/dependency manager
 
 ## Prerequisites
-If you use linux refer go to [this](https://github.com/ggiap/Sorting-Algorithms-Visualization/new/master?readme=1#manjaro-linux) paragraph.
+If you use linux refer to [this](https://github.com/ggiap/Sorting-Algorithms-Visualization/new/master?readme=1#manjaro-linux) paragraph.
 
 ### $Windows
 
